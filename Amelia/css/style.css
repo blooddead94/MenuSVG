@@ -1,0 +1,321 @@
+@import url(reset.css);
+
+
+/* General setting - commenced */
+body {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background: #D8D8D6;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* General setting - completed */
+
+/* button - commenced */
+
+.btn {
+  cursor: pointer;
+  border-radius: 6px;
+  background: #81A36B;
+  padding: 21px 34px;
+  border: 1px solid #81A36B;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn-outline {
+  background: transparent;
+}
+
+
+/* button - completed */
+
+
+
+/* Header - Menu - commenced */
+.header {
+  background: #81A36B;
+  padding: 24px 0;
+}
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  background: rgb(227, 226, 226);
+}
+
+.container-section {
+  display: flex;
+}
+
+.logo {
+  line-height: 1;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  font-size: 18px;
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 400;
+  list-style: none;
+}
+
+.menu-list a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+}
+
+/* Header - Menu - completed */
+
+
+/* PART 1 - Amelia - commenced*/
+
+
+.amelia-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.amelia-inner {
+  flex: 1 1 45%;
+}
+
+
+
+.amelia-title {
+  font-family: 'Architects Daughter';
+  font-size: 62px;
+  margin: 0 0 40px;
+}
+
+.amelia-descr {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.amelia-btns {
+  display: flex;
+  gap: 25px;
+}
+
+.amelia-image {
+  flex: 1 1 45%;
+  height: 670px;
+}
+
+.amelia-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Amelia - Completed */
+
+
+/* About Us - commenced */
+
+
+.aboutus {
+  padding: 120px 0;
+}
+
+.aboutus-container {
+  max-width: 570px;
+  text-align: center;
+}
+
+.aboutus-txt {
+  font-size: 32px;
+  font-family: 'Architects Daughter';
+  margin-bottom: 50px;
+}
+
+/* About Us - completed */
+
+
+
+/* Icons Five - commenced */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.wrap-icons {
+  background: #81A36B;
+}
+
+.final_wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 78px 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Icons Five - completed */
+
+
+/* How we are working - commenced */
+
+
+.work-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 120px;
+}
+
+.work-inner {
+  flex: 1 1 45%;
+}
+
+.work-title {
+  font-family: 'Architects Daughter';
+  font-size: 32px;
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.work-descr {
+  text-align: justify;
+}
+
+.work-image {
+  flex: 1 1 45%;
+  height: 560px;
+}
+
+.work-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* How we are working - compeleted*/
+
+
+
+/* Our Works - commenced */
+
+.card-text {
+  text-align: center;
+  margin-top: 120px;
+  font-family: 'Architects Daughter';
+  font-weight: 400;
+  font-size: 38px;
+}
+
+
+.general-cards {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-cards {
+  margin-top: 50px;
+}
+
+.card-container {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  width: 1110px;
+  height: 510px;
+}
+
+.card {
+  flex: 1 1 30%;
+  background: #81A36B;
+}
+
+.card-img {
+  display: inline-block;
+  width: 320px;
+  height: 402px;
+
+}
+
+.card-img img {
+  margin-top: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+.card-title a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+}
+
+
+/* Our Works - completed */
+
+
+/* Footer - commenced */
+
+.footer {
+  background: #81A36B;
+  padding: 50px 0;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.info-down {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+}
+
+.one-tel,
+.two-tel {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* Footer - completed */
