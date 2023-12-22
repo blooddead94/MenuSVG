@@ -18,14 +18,14 @@
 }
 
 .menu-list>li>a {
-  background: rgb(124, 252, 0) url(icon/display64x64.png) no-repeat 5px/35px;
+  background: rgb(124, 252, 0) url(icon/genetic-data-svgrepo-com.svg) no-repeat 5px/35px;
   padding: 10px 20px 10px 50px;
 }
 
 
 .menu-list>li:last-child>a {
   padding: 10px 50px 10px 20px;
-  background: rgb(124, 252, 0) url(icon/display64x64.png) no-repeat 95%/35px;
+  background: rgb(124, 252, 0) url(icon/genetic-data-svgrepo-com.svg) no-repeat 95%/35px;
 }
 
 .menu_general {
