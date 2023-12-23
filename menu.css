@@ -25,8 +25,7 @@
   height: 40px;
   vertical-align: middle;
   text-align: center;
-  -webkit-animation: pulsing 2s ease-out;
-  animation: pulsing 3s infinite;
+  animation: pulsing 4s infinite;
 }
 
 .svg-icon-two {
@@ -34,8 +33,7 @@
   height: 40px;
   vertical-align: middle;
   text-align: center;
-  -webkit-animation: pulsing 2s ease-in;
-  animation: pulsing 5s infinite;
+  animation: pulsing 3s infinite;
 }
 
 .svg-icon-three {
@@ -43,8 +41,7 @@
   height: 40px;
   vertical-align: middle;
   text-align: center;
-  -webkit-animation: pulsing 2s infinite;
-  animation: pulsing 3s infinite;
+  animation: pulsing 2s infinite;
 }
 
 .svg-li:hover {
@@ -54,17 +51,14 @@
 
 @keyframes pulsing {
   0% {
-    -webkit-transform: scale(0.5, 0.5);
-    transform: scale(0.5, 0.5)
+    transform: scale(0.5, 0.5);
   }
 
   50% {
-    -webkit-transform: scale(1.0, 1.0);
     transform: scale(1.0, 1.0);
   }
 
   100% {
-    -webkit-transform: scale(0.5, 0.5);
     transform: scale(0.5, 0.5);
   }
 }
