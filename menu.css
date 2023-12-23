@@ -20,24 +20,53 @@
 }
 
 
-.svg-icon {
+.svg-icon-one {
   width: 40px;
   height: 40px;
   vertical-align: middle;
   text-align: center;
+  -webkit-animation: pulsing 2s ease-out;
+  animation: pulsing 3s infinite;
 }
 
-.svg-icon-menu {
+.svg-icon-two {
   width: 40px;
   height: 40px;
   vertical-align: middle;
   text-align: center;
+  -webkit-animation: pulsing 2s ease-in;
+  animation: pulsing 5s infinite;
+}
+
+.svg-icon-three {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 3s infinite;
 }
 
 .svg-li:hover {
   font-size: 28px;
   transition-property: size;
-  transition: aqua 1s cubic-bezier(0, 0, 1, 1) 500ms;
+}
+
+@keyframes pulsing {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5)
+  }
+
+  50% {
+    -webkit-transform: scale(1.0, 1.0);
+    transform: scale(1.0, 1.0);
+  }
+
+  100% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+  }
 }
 
 .menu_general {
